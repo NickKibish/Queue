@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NKQueue_Tests' do
+  pod 'NKQueue', :path => '../'
+  
+  
+end
