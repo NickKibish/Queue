@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Mykola Kibysh/NKQueue'
+  s.homepage         = 'https://github.com/NickKibish/Queue.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mykola Kibysh' => 'mykola.kibysh@ticketmaster.com' }
-  s.source           = { :git => 'https://github.com/Mykola Kibysh/NKQueue.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/NickKibish/Queue.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NKQueue/Classes/**/*'
+  s.source_files = 'NKQueue/**/*'
   
   # s.resource_bundles = {
   #   'NKQueue' => ['NKQueue/Assets/*.png']
