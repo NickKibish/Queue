@@ -1,0 +1,6 @@
+framework module NKQueue {
+  umbrella header "NKQueue-umbrella.h"
+
+  export *
+  module * { export * }
+}

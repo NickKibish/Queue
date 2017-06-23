@@ -1,0 +1,6 @@
+framework module NKLinkedList {
+  umbrella header "NKLinkedList-umbrella.h"
+
+  export *
+  module * { export * }
+}

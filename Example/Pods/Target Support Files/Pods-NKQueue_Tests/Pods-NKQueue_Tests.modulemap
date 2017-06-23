@@ -1,0 +1,6 @@
+framework module Pods_NKQueue_Tests {
+  umbrella header "Pods-NKQueue_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
