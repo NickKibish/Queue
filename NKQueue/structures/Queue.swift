@@ -6,21 +6,39 @@
 //
 
 import Foundation
+import NKLinkedList
 
 public struct Queue<T> {
     fileprivate var list = LinkedList<T>()
     
     public init() { }
+    /// Create queue with first element
+    ///
+    /// - Parameter firstElement: element in queue
     public init(with firstElement: T) { list.append(value: firstElement) }
-    
 }
 
+// MARK: - Public Values
 extension Queue {
-    public func enqueue(element: T) {
-        
+    public var isEmpty: Bool { return list.isEmpty }
+    
+    public var size: Int { return list.count }
+}
+
+// MARK: - Public Methods
+extension Queue {
+    /// Add new element to Queue
+    ///
+    /// - Parameter element: element to add
+    public mutating func enqueue(element: T) {
+        list.append(value: element)
     }
     
-    public func dequeue(element: T) {
-        
+    /// Remove element from queue
+    ///
+    /// - Returns: removed element
+    @discardableResult public mutating func dequeue() -> T? {
+        defer { list.removeFirst() }
+        return list.head
     }
 }
