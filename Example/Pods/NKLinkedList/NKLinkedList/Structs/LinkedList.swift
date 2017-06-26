@@ -20,7 +20,7 @@ public struct LinkedList<T> {
         }
     }
     
-    public class Node {
+    open class Node {
         var value: T
         var next: Node?
         weak var previous: Node?
@@ -71,7 +71,7 @@ extension LinkedList {
 
 // MARK: - Public Methods
 extension LinkedList {
-    mutating public func append(value: T) {
+    mutating public func append(_ value: T) {
         let newNode = Node(value: value)
         if let lastNode = lastNode {
             newNode.previous = lastNode

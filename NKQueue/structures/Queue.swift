@@ -15,7 +15,7 @@ public struct Queue<T> {
     /// Create queue with first element
     ///
     /// - Parameter firstElement: element in queue
-    public init(with firstElement: T) { list.append(value: firstElement) }
+    public init(with firstElement: T) { list.append(firstElement) }
 }
 
 // MARK: - Public Values
@@ -31,7 +31,7 @@ extension Queue {
     ///
     /// - Parameter element: element to add
     public mutating func enqueue(_ element: T) {
-        list.append(value: element)
+        list.append(element)
     }
     
     /// Remove element from queue

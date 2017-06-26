@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		328B998CAB0D821445FB4F18 /* Pods_NKQueue_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB14E0193A9C990C768EEF /* Pods_NKQueue_Tests.framework */; };
 		36FD57B81F010319001D23D5 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD57B71F010319001D23D5 /* QueueTests.swift */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +17,6 @@
 		36FD57B71F010319001D23D5 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* NKQueue_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKQueue_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E12DEAE9867B6B08A181254 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		75EBACA7CD088A2D2AEEC39A /* Pods-NKQueue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKQueue_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKQueue_Tests/Pods-NKQueue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9FB14E0193A9C990C768EEF /* Pods_NKQueue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKQueue_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +65,6 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				36FD57B71F010319001D23D5 /* QueueTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -222,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 				36FD57B81F010319001D23D5 /* QueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
