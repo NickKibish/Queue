@@ -53,29 +53,29 @@
 		22ACCED6159D5EC5904A68E881AA320C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C841016C9F5D0CD2C9BC3697976ABBA /* LinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = NKLinkedList/Structs/LinkedList.swift; sourceTree = "<group>"; };
 		2FFFFC758905DC4FAEF2144DAB281374 /* NKQueue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKQueue-prefix.pch"; sourceTree = "<group>"; };
-		33EA887432ADE7AEA601D7CAE4D24F23 /* NKQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NKQueue.framework; path = NKQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EA887432ADE7AEA601D7CAE4D24F23 /* NKQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		497D9FB1D24626427FC1A53A50890390 /* Pods-NKQueue_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKQueue_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		50F886B5C554AF5A2C581ADED5D9B86F /* Pods-NKQueue_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKQueue_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		62A86FAAD1E0CD2813E161CEB2FF18FE /* Pods-NKQueue_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NKQueue_Tests-dummy.m"; sourceTree = "<group>"; };
 		8AEF5BE396E7699FB47434E93D722779 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		90E946685E62721DF2F8B9457321436E /* NKLinkedList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKLinkedList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98C47DAA62A30268A10431426CC9A742 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98D8D6546AE7D2483F87B8D8D8D6E935 /* Pods-NKQueue_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NKQueue_Tests.modulemap"; sourceTree = "<group>"; };
+		98D8D6546AE7D2483F87B8D8D8D6E935 /* Pods-NKQueue_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NKQueue_Tests.modulemap"; sourceTree = "<group>"; };
 		999DC0C02F8520B8FB887C858DA5265D /* NKQueue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKQueue.xcconfig; sourceTree = "<group>"; };
 		A8F3F06470BD4AF599EBD129E0448DB0 /* NKQueue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKQueue-dummy.m"; sourceTree = "<group>"; };
 		AEDDDB0AA4B6E73FDF76912E9A8059E1 /* NKLinkedList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKLinkedList-prefix.pch"; sourceTree = "<group>"; };
 		BBB1E89E4071359250DFD40C8E4EC9B8 /* Pods-NKQueue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKQueue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF7D2D679D5B7A60E0718AC3AD2D5BD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CCEAF569CA66E3C22242F49A24E71B1F /* NKQueue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NKQueue.modulemap; sourceTree = "<group>"; };
+		CCEAF569CA66E3C22242F49A24E71B1F /* NKQueue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NKQueue.modulemap; sourceTree = "<group>"; };
 		CD34763BAFC741D4380E0D992631A876 /* Pods-NKQueue_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKQueue_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D23302ED9BDE426D0C41FFF80808FAD9 /* NKLinkedList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NKLinkedList.modulemap; sourceTree = "<group>"; };
+		D23302ED9BDE426D0C41FFF80808FAD9 /* NKLinkedList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NKLinkedList.modulemap; sourceTree = "<group>"; };
 		D47118266C7D5CFB63D58D59B907BC72 /* Pods-NKQueue_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKQueue_Tests-resources.sh"; sourceTree = "<group>"; };
 		EB2683444C6C02D5457437137EBDDEEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB4BB31D1C2072F74D3D338CBCB6079E /* Pods-NKQueue_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKQueue_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F0D86C19AFA749F5498F55A1189A0352 /* NKLinkedList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NKLinkedList.framework; path = NKLinkedList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D86C19AFA749F5498F55A1189A0352 /* NKLinkedList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKLinkedList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19CB8FBECA414C4108B19F1D630234B /* Pods-NKQueue_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NKQueue_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F6F0F19E75539ADCD3EDEEEA34F1083A /* Pods_NKQueue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NKQueue_Tests.framework; path = "Pods-NKQueue_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F0F19E75539ADCD3EDEEEA34F1083A /* Pods_NKQueue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKQueue_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				2C841016C9F5D0CD2C9BC3697976ABBA /* LinkedList.swift */,
 				E3EBB62F5AD5DA6D4E7B9F3BFB19084D /* Support Files */,
 			);
-			name = NKLinkedList;
 			path = NKLinkedList;
 			sourceTree = "<group>";
 		};
@@ -165,7 +164,6 @@
 			children = (
 				98DA8C50315B071F22FFB4EF188CEEF3 /* structures */,
 			);
-			name = NKQueue;
 			path = NKQueue;
 			sourceTree = "<group>";
 		};
@@ -186,7 +184,6 @@
 			children = (
 				8AEF5BE396E7699FB47434E93D722779 /* Queue.swift */,
 			);
-			name = structures;
 			path = structures;
 			sourceTree = "<group>";
 		};
@@ -346,6 +343,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					50F39031955F494FBC5BA08C4AFDF435 = {
+						LastSwiftMigration = 0830;
+					};
+					9364C0649062A33654D10B1A97E5C3FC = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";

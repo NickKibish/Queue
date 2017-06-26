@@ -30,7 +30,7 @@ extension Queue {
     /// Add new element to Queue
     ///
     /// - Parameter element: element to add
-    public mutating func enqueue(element: T) {
+    public mutating func enqueue(_ element: T) {
         list.append(value: element)
     }
     

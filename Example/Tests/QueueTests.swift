@@ -35,8 +35,8 @@ class QueueTests: XCTestCase {
     
     func testEnqueue() {
         var queue = Queue<Int>()
-        queue.enqueue(element: 1)
-        queue.enqueue(element: 2)
+        queue.enqueue(1)
+        queue.enqueue(2)
         
         let element1 = queue.dequeue()
         let element2 = queue.dequeue()
@@ -46,18 +46,18 @@ class QueueTests: XCTestCase {
     
     func testSize() {
         var queue = Queue<Int>()
-        queue.enqueue(element: 10)
+        queue.enqueue(10)
         XCTAssertEqual(queue.size, 1)
-        queue.enqueue(element: 20)
+        queue.enqueue(20)
         XCTAssertEqual(queue.size, 2)
     }
     
     func testIsEmpty() {
         var queue = Queue<Int>()
         XCTAssertEqual(queue.isEmpty, true)
-        queue.enqueue(element: 1)
+        queue.enqueue(1)
         XCTAssertEqual(queue.isEmpty, false)
-        queue.enqueue(element: 2)
+        queue.enqueue(2)
         XCTAssertEqual(queue.isEmpty, false)
         queue.dequeue()
         XCTAssertEqual(queue.isEmpty, false)
